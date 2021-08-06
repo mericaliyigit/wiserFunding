@@ -24,7 +24,7 @@ def z_score_calculate(the_data: schemas.FinancialInfo):
             z_score = x1 * COEFFICIENTS['x1'] + x2 * COEFFICIENTS['x2'] + x3 * COEFFICIENTS['x3'] +\
                       x4 * COEFFICIENTS['x4'] + x5 * COEFFICIENTS['x5']
 
-            print(z_score)
+            #print(z_score)
 
             z_scores.append({"year" : yearly_info.year,
                              "zscore" : z_score})
